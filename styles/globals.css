@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container-80 {
+  width: 80%;
+  margin: auto;
+}
+.container-90 {
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+}
