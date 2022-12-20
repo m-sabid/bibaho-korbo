@@ -8,7 +8,7 @@ const TopSlider = () => {
   return (
     <div className="z-0">
        <Swiper
-        className="lg:h-[90vh] md:h-[90vh] sm:h-screen h-screen bg-cusRed"
+        className="lg:h-[80vh] md:h-[90vh] sm:h-screen h-screen bg-cusRed"
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
@@ -23,9 +23,8 @@ const TopSlider = () => {
       >
         <SwiperSlide className="relative flex justify-center">
           <Image
-            src="https://img.freepik.com/free-photo/young-couple-together-walking-autumn-park_1303-26181.jpg?w=2000"
-            width={1200}
-            height={1000}
+            src="https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            fill
             alt="pic"
             className="object-cover w-screen h-screen absolute top-0"
           />
@@ -34,18 +33,16 @@ const TopSlider = () => {
         </SwiperSlide>
         <SwiperSlide className="relative flex justify-center">
           <Image
-            src="https://media.istockphoto.com/id/1319039993/photo/young-loving-muslim-couple-holding-paper-house-and-smiling.jpg?s=612x612&w=0&k=20&c=anvo1H7NSUPreRYQ-U2VP6H6owoPydfJGHOhjOPjAzY="
-            width={1200}
-            height={1000}
+            src="https://images.unsplash.com/photo-1525272149490-82288cb110a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            fill
             alt="pic"
             className="object-cover w-screen h-screen absolute top-0"
           />
         </SwiperSlide>
         <SwiperSlide className="relative flex justify-center">
         <Image
-            src="https://cdn.pixabay.com/photo/2022/07/30/11/47/wedding-7353626__340.jpg"
-            width={1920}
-            height={1280}
+            src="https://images.unsplash.com/photo-1460978812857-470ed1c77af0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=995&q=80"
+            fill
             alt="pic"
             className="object-cover w-screen h-screen absolute top-0"
           />

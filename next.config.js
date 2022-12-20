@@ -7,6 +7,7 @@ const nextConfig = {
       "img.freepik.com",
       "media.istockphoto.com",
       "cdn.pixabay.com",
+      "images.unsplash.com",
     ],
   },
 };

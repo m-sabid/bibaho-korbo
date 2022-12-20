@@ -1,9 +1,3 @@
-
-
-
-
-
-
 const FindPartner = () => {
   return (
     <>
@@ -18,7 +12,7 @@ const FindPartner = () => {
               <label htmlFor="" className="">
                 Looking For
               </label>
-              <select className="select lg:max-w-xs md:max-w-xs sm:w-full bg-slate-200 outline-none">
+              <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full bg-slate-200 outline-none">
                 <option selected value="Woman">
                   Woman
                 </option>
@@ -30,7 +24,7 @@ const FindPartner = () => {
               <label htmlFor="" className="">
                 Minimum Age
               </label>
-              <select className="select lg:max-w-xs md:max-w-xs sm:w-full bg-slate-200 outline-none">
+              <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full bg-slate-200 outline-none">
                 <option selected value="18">
                   18
                 </option>
@@ -84,7 +78,7 @@ const FindPartner = () => {
               <label htmlFor="" className="">
                 Maximum Age
               </label>
-              <select className="select lg:max-w-xs md:max-w-xs sm:w-full bg-slate-200 outline-none">
+              <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full bg-slate-200 outline-none">
                 <option value="18">18</option>
                 <option value="19">19</option>
                 <option value="20">20</option>
@@ -139,7 +133,7 @@ const FindPartner = () => {
                   <label htmlFor="" className="">
                     Religion
                   </label>
-                  <select className="select lg:max-w-xs md:max-w-xs sm:w-full bg-slate-200 outline-none">
+                  <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full bg-slate-200 outline-none">
                     <option selected value="muslim">
                       Muslim
                     </option>
@@ -162,7 +156,7 @@ const FindPartner = () => {
               <label htmlFor="" className="">
                 Professions
               </label>
-              <select className="select lg:max-w-xs md:max-w-xs sm:w-full bg-slate-200 outline-none">
+              <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full bg-slate-200 outline-none">
                 <option selected value="">
                   Any Professions
                 </option>
@@ -192,11 +186,11 @@ const FindPartner = () => {
               <input
                 type="submit"
                 value="Submit"
-                className="bg-secondary py-2 px-1 rounded-lg"
+                className="bg-secondary py-1 px-2 rounded-lg"
               />
             </div>
           </form>
-          <p className="text-center py-3">
+          <p className="text-center">
             {" "}
             🛡️ Securely search your life partner
           </p>
