@@ -2,7 +2,7 @@ const FindPartner = () => {
   return (
     <>
       <div className="flex justify-center items-center">
-        <div className="bg-primary bg-opacity-80 lg:w-3/4 sm:w-3/4 md:w-full z-50 py-5 px-5 rounded-lg absolute drop-shadow-lg">
+        <div className="bg-primary bg-opacity-90 lg:w-3/4 sm:w-3/4 md:w-full z-50 py-5 px-5 rounded-lg absolute drop-shadow-lg">
           <h3 className="text-center text-lg font-bold">
             Find Your Best Partner
           </h3>

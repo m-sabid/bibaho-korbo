@@ -26,10 +26,10 @@ const HowWorkThisSite = () => {
   ];
   return (
     <>
-      <div className="mt-32 h-1"></div>
+      <div className="md:mt-32 mt-64 h-1"></div>
 
       <div className="container-90 text-center">
-        <h1 className="text-2xl font-bold">
+        <h1 className="text-4xl font-bold">
           How
           <span className="text-cusRed font-philosopher"> bibaho-korbo </span>
           works
@@ -43,11 +43,11 @@ const HowWorkThisSite = () => {
           in 3 easy steps
         </p>
 
-        <div className="grid grid-cols-6 my-10 grid-flow-col gap-2">
+        <div className="grid grid-cols-6 gap-2 my-10">
           {howItWorkData.map((dt, index) => {
             return (
               <>
-                <div className="flex flex-col col-span-2 items-center justify-center p-5">
+                <div className="flex flex-col md:col-span-2 col-span-6 items-center justify-center p-5">
                   <h1
                     className={`${
                       dt.bgCol === "#CDD55C"

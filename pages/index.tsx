@@ -7,6 +7,9 @@ import FindPartner from "../src/Components/Home/FindPartner";
 import UpArrow from "../src/Components/Shared/upArrow";
 import HowWorkThisSite from "../src/Components/Home/HowWorkThisSite";
 import WhyUs from "../src/Components/Home/WhyUs";
+import SuccessStories from "../src/Components/Home/SuccessStories";
+import MembershipPlans from "../src/Components/Home/MembershipPlans";
+import VIPAssistantService from "../src/Components/Home/VIPAssistantService";
 
 export default function Home() {
   const [data, setData] = useState([]);
@@ -27,12 +30,17 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <UpArrow />
 
       <TopSlider />
       <FindPartner />
       <HowWorkThisSite />
       <WhyUs />
+      <SuccessStories />
+      <MembershipPlans />
+      <VIPAssistantService />
+
+
+      <UpArrow />
     </>
   );
 }
