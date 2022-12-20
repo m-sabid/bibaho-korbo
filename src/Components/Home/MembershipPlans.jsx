@@ -10,7 +10,7 @@ const MembershipPlans = () => {
             Plans
           </h1>
           <p className="text-center py-3">
-            Primarily it's free to search any profiles. Upgrade For customized
+            Primarily it`s free to search any profiles. Upgrade For customized
             the search. With a paid membership, you can seamlessly connect with
             your prospects and get more responses. Many have found their love.
             Are you ready to meet your Soul Mate?
