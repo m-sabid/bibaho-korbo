@@ -42,7 +42,7 @@ const MainNav = () => {
 
             {/*  */}
             {/*  */}
-            <div className="navbar-end ">
+            <div className="flex">
               <div className="dropdown dropdown-end ">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
                   <svg

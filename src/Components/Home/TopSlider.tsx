@@ -11,10 +11,10 @@ const TopSlider = () => {
         spaceBetween={0}
         centeredSlides={true}
         loop={true}
-        // autoplay={{
-        //   delay: 7500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 7500,
+          disableOnInteraction: false,
+        }}
         // pagination={{
         //   clickable: true,
         // }}
