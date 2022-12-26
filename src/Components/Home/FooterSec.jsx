@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const footerData = [
@@ -72,7 +73,9 @@ const FooterSec = () => {
                         {dt.footerNavNames.map((item, index) => {
                           return (
                             <>
-                              <li className="my-footer-nav-links">{item}</li>
+                              <li className="my-footer-nav-links">
+                                <Link href={`/${item.toLowerCase()}`}>{item} </Link>
+                              </li>
                             </>
                           );
                         })}
@@ -99,7 +102,7 @@ const FooterSec = () => {
 
           <div className="text-center w-full">
             <p>
-              <hr /> Copyright © 2021 BD Marriage | All rights reserved.
+             Copyright © 2021 BD Marriage | All rights reserved.
             </p>
             <p>
               All content and graphics on this web site are the property of XYZ
