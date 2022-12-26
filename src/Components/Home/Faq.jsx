@@ -56,10 +56,10 @@ const faqData = [
 
 const Faq = () => {
   return (
-    <div className="bg-light my-10 py-10">
+    <div className="my-10 py-10">
       <div className="container-90">
         <div className="min-h-[80vh]">
-          <div className="w-5/6 m-auto bg-white p-10">
+          <div className="md:w-5/6 w-full m-auto bg-white p-10 shadow-xl">
             <h1 className="text-3xl font-bold mb-10 flex gap-3 justify-center items-center">
               <BsFillQuestionDiamondFill /> Frequently Asked Questions
             </h1>

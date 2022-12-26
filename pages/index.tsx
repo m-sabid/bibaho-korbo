@@ -14,6 +14,7 @@ import FilterSection from "../src/Components/Home/FilterSection";
 import AppSection from "../src/Components/Home/AppSection";
 import RegisterSection from "../src/Components/Home/RegisterSection";
 import Faq from "../src/Components/Home/Faq";
+import FooterSec from "../src/Components/Home/FooterSec";
 
 export default function Home() {
   const [data, setData] = useState([]);
@@ -46,6 +47,7 @@ export default function Home() {
       <AppSection />
       <RegisterSection />
       <Faq />
+      <FooterSec />
 
       <UpArrow />
     </>
