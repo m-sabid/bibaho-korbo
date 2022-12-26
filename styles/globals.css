@@ -175,16 +175,16 @@
   }
   .my-footer-nav {
     width: 100%;
-    display: flex;
+    display: grid;
+    text-align: center;
     gap: 20px;
-    flex-wrap: wrap;
-    justify-content: start;
+    justify-content: center;
   }
   .my-footer-ads {
     margin-top: 50px;
     width: 100%;
-    text-align: start;
-    align-items: flex-start;
+    text-align: center;
+    align-items: center;
   }
 
   .my-footer-bottom {

@@ -2,7 +2,7 @@ const RegisterSection = () => {
   return (
     <div className="bg-light p-10">
       <div className="container-80">
-        <div className="bg-cusRed rounded-md p-10 grid grid-cols-12">
+        <div className="bg-primary rounded-md p-10 grid grid-cols-12">
           <div className="md:col-span-6 md:block hidden">
             <h1 className="text-4xl text-white font-bold">
               Find Someone Special at <br />

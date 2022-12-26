@@ -9,7 +9,7 @@ const upArrow = () => {
     <>
       <button
         onClick={goToTop}
-        className="fixed bottom-10 right-10 text-4xl text-primary bg-cusRed rounded-xl"
+        className="fixed bottom-10 right-10 text-4xl text-primary bg-white rounded-xl"
       >
         <BsArrowUpSquareFill />
       </button>

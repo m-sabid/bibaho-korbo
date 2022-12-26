@@ -15,7 +15,7 @@ const MainNav = () => {
   };
   useEffect(() => {
     window.addEventListener("scroll", cBg);
-    console.log("first");
+    // console.log("first");
   }, []);
 
   return (
@@ -31,10 +31,10 @@ const MainNav = () => {
           <div className="flex justify-between items-center navbar ">
             <Link href={"/"} className="inline-block navbar-start">
               <div className="flex items-center gap-3 md:text-3xl text-xl">
-                <div className="text-danger">
+                <div className="text-white">
                   <GiLovers />
                 </div>
-                <h1 className="text-danger font-philosopher font-extrabold">
+                <h1 className="text-white font-philosopher font-extrabold">
                   Bibaho Korbo
                 </h1>
               </div>
@@ -44,7 +44,10 @@ const MainNav = () => {
             {/*  */}
             <div className="flex">
               <div className="dropdown dropdown-end ">
-                <label tabIndex={0} className="btn btn-ghost lg:hidden">
+                <label
+                  tabIndex={0}
+                  className="btn text-white btn-ghost lg:hidden"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
@@ -65,10 +68,10 @@ const MainNav = () => {
                   className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-xl"
                 >
                   <li>
-                    <a>Item 1</a>
+                    <a>Register</a>
                   </li>
                   <li>
-                    <a>Item 3</a>
+                    <a>Login</a>
                   </li>
                 </ul>
               </div>
@@ -76,16 +79,16 @@ const MainNav = () => {
 
             {/*  */}
 
-            <div className="navbar-end hidden lg:flex text-danger text-lg font-semibold">
+            <div className="navbar-end hidden lg:flex text-white text-md uppercase">
               <ul className="menu menu-horizontal px-1">
                 <li>
                   <Link href={"/"} className="active:bg-transparent">
-                    Main 1
+                    Register
                   </Link>
                 </li>
                 <li>
                   <Link href={"/"} className="active:bg-transparent">
-                    Main 2
+                    Login
                   </Link>
                 </li>
               </ul>

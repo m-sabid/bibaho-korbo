@@ -3,16 +3,16 @@ const FindPartner = () => {
     <>
       <div className="flex justify-center items-center">
         <div className="bg-primary bg-opacity-90 lg:w-3/4 sm:w-3/4 md:w-full z-30 py-5 px-5 rounded-lg absolute drop-shadow-lg">
-          <h3 className="text-center text-lg font-bold">
+          <h3 className="text-center text-white text-lg font-bold">
             Find Your Best Partner
           </h3>
 
-          <form className="flex lg:flex-row md:flex-row sm:flex-col flex-col justify-around items-center py-5">
+          <form className="flex text-white lg:flex-row md:flex-row sm:flex-col flex-col justify-around items-center py-5">
             <div className="flex flex-col lg:w-auto md:w-auto sm:w-full w-full text-center">
               <label htmlFor="" className="">
                 Looking For
               </label>
-              <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full bg-slate-200 outline-none">
+              <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full text-primary bg-slate-200 outline-none">
                 <option selected value="Woman">
                   Woman
                 </option>
@@ -24,7 +24,7 @@ const FindPartner = () => {
               <label htmlFor="" className="">
                 Minimum Age
               </label>
-              <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full bg-slate-200 outline-none">
+              <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full text-primary bg-slate-200 outline-none">
                 <option selected value="18">
                   18
                 </option>
@@ -78,7 +78,7 @@ const FindPartner = () => {
               <label htmlFor="" className="">
                 Maximum Age
               </label>
-              <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full bg-slate-200 outline-none">
+              <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full text-primary bg-slate-200 outline-none">
                 <option value="18">18</option>
                 <option value="19">19</option>
                 <option value="20">20</option>
@@ -133,7 +133,7 @@ const FindPartner = () => {
                   <label htmlFor="" className="">
                     Religion
                   </label>
-                  <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full bg-slate-200 outline-none">
+                  <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full text-primary bg-slate-200 outline-none">
                     <option selected value="muslim">
                       Muslim
                     </option>
@@ -156,7 +156,7 @@ const FindPartner = () => {
               <label htmlFor="" className="">
                 Professions
               </label>
-              <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full bg-slate-200 outline-none">
+              <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full text-primary bg-slate-200 outline-none">
                 <option selected value="">
                   Any Professions
                 </option>
@@ -190,7 +190,7 @@ const FindPartner = () => {
               />
             </div>
           </form>
-          <p className="text-center">
+          <p className="text-center text-white">
             {" "}
             🛡️ Securely search your life partner
           </p>
