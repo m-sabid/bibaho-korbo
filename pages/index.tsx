@@ -10,6 +10,10 @@ import WhyUs from "../src/Components/Home/WhyUs";
 import SuccessStories from "../src/Components/Home/SuccessStories";
 import MembershipPlans from "../src/Components/Home/MembershipPlans";
 import VIPAssistantService from "../src/Components/Home/VIPAssistantService";
+import FilterSection from "../src/Components/Home/FilterSection";
+import AppSection from "../src/Components/Home/AppSection";
+import RegisterSection from "../src/Components/Home/RegisterSection";
+import Faq from "../src/Components/Home/Faq";
 
 export default function Home() {
   const [data, setData] = useState([]);
@@ -38,7 +42,10 @@ export default function Home() {
       <SuccessStories />
       <MembershipPlans />
       <VIPAssistantService />
-
+      <FilterSection />
+      <AppSection />
+      <RegisterSection />
+      <Faq />
 
       <UpArrow />
     </>

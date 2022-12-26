@@ -31,10 +31,10 @@ const MainNav = () => {
           <div className="flex justify-between items-center navbar ">
             <Link href={"/"} className="inline-block navbar-start">
               <div className="flex items-center gap-3 md:text-3xl text-xl">
-                <div className="text-white">
+                <div className="text-danger">
                   <GiLovers />
                 </div>
-                <h1 className="text-white font-philosopher font-extrabold">
+                <h1 className="text-danger font-philosopher font-extrabold">
                   Bibaho Korbo
                 </h1>
               </div>
@@ -76,7 +76,7 @@ const MainNav = () => {
 
             {/*  */}
 
-            <div className="navbar-end hidden lg:flex text-white text-lg font-semibold">
+            <div className="navbar-end hidden lg:flex text-danger text-lg font-semibold">
               <ul className="menu menu-horizontal px-1">
                 <li>
                   <Link href={"/"} className="active:bg-transparent">

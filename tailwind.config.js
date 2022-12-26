@@ -7,6 +7,7 @@ module.exports = {
         primary: "#4ade80",
         secondary: "#06b6d4",
         danger: "#dc2626",
+        light: "#E5E7EB",
         cusRed: "#C03839",
       },
       fontFamily: {
