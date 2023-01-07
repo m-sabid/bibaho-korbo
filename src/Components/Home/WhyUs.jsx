@@ -12,7 +12,7 @@ const WhyUs = () => {
               Why choose
               <span className="text-cusRed font-philosopher">
                 {" "}
-                bibaho-korbo{" "}
+                React-matrimony{" "}
               </span>
             </h1>
             <ul className="ml-5 flex flex-col gap-3">

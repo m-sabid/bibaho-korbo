@@ -6,7 +6,7 @@ const RegisterSection = () => {
           <div className="md:col-span-6 md:block hidden">
             <h1 className="text-4xl text-white font-bold">
               Find Someone Special at <br />
-              <span className=" font-philosopher"> bibaho-korbo </span>
+              <span className=" font-philosopher"> React-matrimony </span>
             </h1>
 
             <p className="text-white">

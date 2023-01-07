@@ -9,6 +9,7 @@ const nextConfig = {
       "cdn.pixabay.com",
       "images.unsplash.com",
       "i.ibb.co",
+      "images.pexels.com"
     ],
   },
 };

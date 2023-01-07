@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: white !important;
+  color: #1F2937 !important;
+}
+
 .container-80 {
   width: 80%;
   margin: auto;
@@ -77,11 +82,21 @@
 
 .my-footer-top {
   display: flex;
-  background-color: #dcdcdc;
   width: 100%;
   padding: 40px 130px;
   position: relative;
 }
+@media (prefers-color-scheme: dark) {
+  .my-footer-top {
+    background-color: #dcdcdc;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .my-footer-top {
+    background-color: #dcdcdc;
+  }
+}
+
 .top-footer-content {
   display: flex;
   flex-direction: column;

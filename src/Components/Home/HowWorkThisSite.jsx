@@ -26,47 +26,51 @@ const HowWorkThisSite = () => {
   ];
   return (
     <>
-      <div className="md:mt-32 mt-64 h-1"></div>
+      <div className="dark:bg-white">
+        <div className="md:mt-32 dark:bg-white mt-64 h-1"></div>
+        <div className="container-90 text-center">
+          <h1 className="text-4xl font-bold">
+            How
+            <span className="text-cusRed font-philosopher">
+              {" "}
+              React-matrimony{" "}
+            </span>
+            works
+          </h1>
+          <p>
+            Get started in{" "}
+            <span className="text-cusRed font-philosopher font-bold">
+              {" "}
+              react-matrimony.com{" "}
+            </span>{" "}
+            in 3 easy steps
+          </p>
 
-      <div className="container-90 text-center">
-        <h1 className="text-4xl font-bold">
-          How
-          <span className="text-cusRed font-philosopher"> bibaho-korbo </span>
-          works
-        </h1>
-        <p>
-          Get started in{" "}
-          <span className="text-cusRed font-philosopher font-bold">
-            {" "}
-            bibaho-korbo.com{" "}
-          </span>{" "}
-          in 3 easy steps
-        </p>
-
-        <div className="grid grid-cols-6 gap-2 my-10">
-          {howItWorkData.map((dt, index) => {
-            return (
-              <>
-                <div className="flex flex-col md:col-span-2 col-span-6 items-center justify-center p-5">
-                  <h1
-                    className={`${
-                      dt.bgCol === "#CDD55C"
-                        ? "bg-[#CDD55C]"
-                        : dt.bgCol === "#F96B6B"
-                        ? "bg-[#F96B6B]"
-                        : dt.bgCol === "#5DADE2"
-                        ? "bg-[#5DADE2]"
-                        : ""
-                    } p-5 rounded-full text-5xl text-white`}
-                  >
-                    {dt.icons}
-                  </h1>
-                  <h2 className="text-xl font-semibold py-3">{dt.title}</h2>
-                  <p>{dt.description}</p>
-                </div>
-              </>
-            );
-          })}
+          <div className="grid grid-cols-6 gap-2 my-10">
+            {howItWorkData.map((dt, index) => {
+              return (
+                <>
+                  <div className="flex flex-col md:col-span-2 col-span-6 items-center justify-center p-5">
+                    <h1
+                      className={`${
+                        dt.bgCol === "#CDD55C"
+                          ? "bg-[#CDD55C]"
+                          : dt.bgCol === "#F96B6B"
+                          ? "bg-[#F96B6B]"
+                          : dt.bgCol === "#5DADE2"
+                          ? "bg-[#5DADE2]"
+                          : ""
+                      } p-5 rounded-full text-5xl text-white`}
+                    >
+                      {dt.icons}
+                    </h1>
+                    <h2 className="text-xl font-semibold py-3">{dt.title}</h2>
+                    <p>{dt.description}</p>
+                  </div>
+                </>
+              );
+            })}
+          </div>
         </div>
       </div>
     </>

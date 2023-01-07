@@ -21,7 +21,7 @@ const TopSlider = () => {
         // navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
       >
-        <SwiperSlide className="relative flex justify-center bg-gradient-to-br from-primary to-gray-600">
+        <SwiperSlide className="relative flex justify-center bg-gradient-to-br from-primary to-gray-600 dark:from-primary dark:to-gray-600">
           <Image
             src="https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             fill
@@ -31,7 +31,7 @@ const TopSlider = () => {
           {/* <img src={} alt="" /> */}
           {/* <h2 className="absolute bottom-0">Hello</h2> */}
         </SwiperSlide>
-        <SwiperSlide className="relative flex justify-center bg-gradient-to-br from-primary to-gray-600">
+        <SwiperSlide className="relative flex justify-center bg-gradient-to-br dark:from-primary dark:to-gray-600 from-primary to-gray-600">
           <Image
             src="https://images.unsplash.com/photo-1525272149490-82288cb110a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             fill
@@ -39,7 +39,7 @@ const TopSlider = () => {
             className="object-cover w-screen h-screen absolute top-0 mix-blend-overlay"
           />
         </SwiperSlide>
-        <SwiperSlide className="relative flex justify-center bg-gradient-to-br from-primary to-gray-600">
+        <SwiperSlide className="relative flex justify-center bg-gradient-to-br from-primary to-gray-600 dark:from-primary dark:to-gray-600">
           <Image
             src="https://images.unsplash.com/photo-1460978812857-470ed1c77af0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=995&q=80"
             fill

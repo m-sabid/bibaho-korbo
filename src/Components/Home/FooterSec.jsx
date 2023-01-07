@@ -90,7 +90,7 @@ const FooterSec = () => {
           <div className="my-footer-ads">
             <h4 className="my-footer-nav-item">Download App</h4>
             <p>
-              Download bibaho-korbo app to get better experience and get notify
+              Download React-matrimony app to get better experience and get notify
               when someone response
             </p>
             <img

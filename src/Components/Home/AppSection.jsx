@@ -11,7 +11,7 @@ const AppSection = () => {
             <p className="text-gray-500 font-semibold">Connect with</p>
 
             <h1 className="text-4xl font-bold">
-              <span className="text-cusRed font-philosopher">bibaho-korbo</span>
+              <span className="text-cusRed font-philosopher">React-matrimony</span>
             </h1>
 
             <h2 className="font-semibold text-gray-700 text-xl my-10">

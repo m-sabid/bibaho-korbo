@@ -2,7 +2,7 @@ const FindPartner = () => {
   return (
     <>
       <div className="flex justify-center items-center">
-        <div className="bg-primary bg-opacity-90 lg:w-3/4 sm:w-3/4 md:w-full z-30 py-5 px-5 rounded-lg absolute drop-shadow-lg">
+        <div className="bg-primary dark:bg-primary dark:bg-opacity-90 bg-opacity-90 lg:w-3/4 sm:w-3/4 md:w-full z-30 py-5 px-5 rounded-lg absolute drop-shadow-lg">
           <h3 className="text-center text-white text-lg font-bold">
             Find Your Best Partner
           </h3>
@@ -12,7 +12,7 @@ const FindPartner = () => {
               <label htmlFor="" className="">
                 Looking For
               </label>
-              <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full text-primary bg-slate-200 outline-none">
+              <select className="py-1 rounded lg:max-w-xs md:max-w-xs sm:w-full text-primary dark:bg-slate-200 bg-slate-200 outline-none">
                 <option selected value="Woman">
                   Woman
                 </option>

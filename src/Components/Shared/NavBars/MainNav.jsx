@@ -13,6 +13,7 @@ const MainNav = () => {
       setNabBg(false);
     }
   };
+
   useEffect(() => {
     window.addEventListener("scroll", cBg);
     // console.log("first");
@@ -24,7 +25,7 @@ const MainNav = () => {
         <div
           className={`${
             navBar
-              ? "fixed top-0 z-50 md:w-3/4 bg-primary bg-opacity-90 w-full rounded-b-lg p-3 drop-shadow-lg md:px-10"
+              ? "fixed top-0 z-50 md:w-3/4 bg-primary dark:bg-primary bg-opacity-90 w-full rounded-b-lg p-3 drop-shadow-lg md:px-10"
               : "md:w-5/6 absolute top-0 z-50 w-full rounded-b-lg p-3 drop-shadow-lg md:px-10"
           }`}
         >
@@ -35,7 +36,7 @@ const MainNav = () => {
                   <GiLovers />
                 </div>
                 <h1 className="text-white font-philosopher font-extrabold">
-                  Bibaho Korbo
+                  React-matrimony
                 </h1>
               </div>
             </Link>
@@ -68,10 +69,14 @@ const MainNav = () => {
                   className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-xl"
                 >
                   <li>
-                    <a>Register</a>
+                    <Link href={"/register"} className="active:bg-transparent">
+                      Register
+                    </Link>
                   </li>
                   <li>
-                    <a>Login</a>
+                    <Link href={"/login"} className="active:bg-transparent">
+                      Login
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -82,12 +87,12 @@ const MainNav = () => {
             <div className="navbar-end hidden lg:flex text-white text-md uppercase">
               <ul className="menu menu-horizontal px-1">
                 <li>
-                  <Link href={"/"} className="active:bg-transparent">
+                  <Link href={"/register"} className="active:bg-transparent">
                     Register
                   </Link>
                 </li>
                 <li>
-                  <Link href={"/"} className="active:bg-transparent">
+                  <Link href={"/login"} className="active:bg-transparent">
                     Login
                   </Link>
                 </li>

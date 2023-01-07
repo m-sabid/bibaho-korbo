@@ -15,7 +15,7 @@ const SuccessStories = () => {
       couple: "Kawsar & Saba",
       img: "https://images.unsplash.com/photo-1522433515676-e82aff21f9d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=418&q=80",
       description:
-        "We are thankful to bibaho-korbo .com for helping us to find each other. I was exiciting about the platform and its worked.",
+        "We are thankful to React-matrimony.com for helping us to find each other. I was exiciting about the platform and its worked.",
     },
     {
       couple: "Adeeb & Munni",

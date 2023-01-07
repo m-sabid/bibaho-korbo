@@ -3,12 +3,12 @@ import { BsFillQuestionDiamondFill } from "react-icons/bs";
 
 const faqData = [
   {
-    faqTitle: "Is It FREE to create profile in bibaho-korbo.com?",
+    faqTitle: "Is It FREE to create profile in react-matrimony.com?",
     faqDescription:
       "Absolutely. Creating a profile in BD Marriage is completely FREE and no service charge is required. Create your profile and enjoy the exciting services.",
   },
   {
-    faqTitle: "How can i create my profile on bibaho-korbo.com?",
+    faqTitle: "How can i create my profile on react-matrimony.com?",
     faqDescription:
       "It's very easy & simple. Just click Register Now to go to the registration page and follow the steps by filling up all the required information.",
   },
